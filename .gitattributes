@@ -52,6 +52,7 @@
 *.prefab linguist-generated
 *.unity linguist-generated
 Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
 *.vsidx filter=lfs diff=lfs merge=lfs -text
 *.lock filter=lfs diff=lfs merge=lfs -text
 *.suo filter=lfs diff=lfs merge=lfs -text
@@ -5704,7 +5705,6 @@ Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
 /Library/PackageCache/com.unity.burst@1.6.6/.Runtime/hostmac/dsymutil filter=lfs diff=lfs merge=lfs -text
 /Library/PackageCache/com.unity.burst@1.6.6/.Runtime/hostmac/lld filter=lfs diff=lfs merge=lfs -text
 /Library/PackageCache/com.unity.burst@1.6.6/.Runtime/hostmac/llvm-lipo filter=lfs diff=lfs merge=lfs -text
-*.dylib filter=lfs diff=lfs merge=lfs -text
 *.a filter=lfs diff=lfs merge=lfs -text
 *.lib filter=lfs diff=lfs merge=lfs -text
 *.asmref filter=lfs diff=lfs merge=lfs -text
